@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit();
     } else {
         // Redirect kembali ke halaman login dengan pesan error
-        header("Location: login.html?error=true");
+        header("Location: index.html?error=true");
         exit();
     }
 }
