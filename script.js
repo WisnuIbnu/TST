@@ -1,5 +1,5 @@
 
-        const endpoint = "http://127.0.0.1:8000/api/siswa";
+        const endpoint = "http://jarkom.com/api/siswa";
 
         const fetchData = async () => {
             try {
